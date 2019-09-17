@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190917 23:03:05.217" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/godtdd/workspace/meetup-2019-09-19/1-plugin" id="s1" name="1-Plugin">
+<suite source="/home/godtdd/workspace/meetup-2019-09-19/1-plugin/element_finder_plugin.robot" id="s1-s1" name="Element Finder Plugin">
+<test id="s1-s1-t1" name="Oerwriting ElementFinder">
+<kw name="Get WebElement" library="SeleniumLibrary">
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<arguments>
+<arg>//div</arg>
+</arguments>
+<assign>
+<var>${element}</var>
+</assign>
+<msg timestamp="20190917 23:03:05.490" level="TRACE">Arguments: [ '//div' ]</msg>
+<msg timestamp="20190917 23:03:05.490" level="INFO">DummyFinder args "(u'//div', None, True, True, None)"</msg>
+<msg timestamp="20190917 23:03:05.490" level="INFO">Original finder &lt;SeleniumLibrary.locators.elementfinder.ElementFinder object at 0x7f3c1dbc5b10&gt;</msg>
+<msg timestamp="20190917 23:03:05.490" level="TRACE">Return: b'Dummy find'</msg>
+<msg timestamp="20190917 23:03:05.490" level="INFO">${element} = Dummy find</msg>
+<status status="PASS" endtime="20190917 23:03:05.490" starttime="20190917 23:03:05.490"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${element}</arg>
+<arg>Dummy find</arg>
+</arguments>
+<msg timestamp="20190917 23:03:05.491" level="TRACE">Arguments: [ b'Dummy find' | 'Dummy find' ]</msg>
+<msg timestamp="20190917 23:03:05.491" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'unicode'&gt;</msg>
+<msg timestamp="20190917 23:03:05.491" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190917 23:03:05.491" starttime="20190917 23:03:05.490"></status>
+</kw>
+<tags>
+<tag>demo4</tag>
+</tags>
+<status status="PASS" endtime="20190917 23:03:05.491" critical="yes" starttime="20190917 23:03:05.489"></status>
+</test>
+<test id="s1-s1-t2" name="Using Other Keyword">
+<kw name="Other Keyword" library="SeleniumLibrary">
+<tags>
+<tag>plugin</tag>
+</tags>
+<arguments>
+<arg>tidii</arg>
+</arguments>
+<assign>
+<var>${text}</var>
+</assign>
+<msg timestamp="20190917 23:03:05.493" level="TRACE">Arguments: [ 'tidii' ]</msg>
+<msg timestamp="20190917 23:03:05.493" level="INFO">Other keyword</msg>
+<msg timestamp="20190917 23:03:05.493" level="INFO">DummyFinder args "(u'tidii', None, True, True, None)"</msg>
+<msg timestamp="20190917 23:03:05.493" level="INFO">Original finder &lt;SeleniumLibrary.locators.elementfinder.ElementFinder object at 0x7f3c1dbc5b10&gt;</msg>
+<msg timestamp="20190917 23:03:05.493" level="TRACE">Return: 'Dummy find tidii'</msg>
+<msg timestamp="20190917 23:03:05.493" level="INFO">${text} = Dummy find tidii</msg>
+<status status="PASS" endtime="20190917 23:03:05.493" starttime="20190917 23:03:05.493"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${text}</arg>
+<arg>Dummy find tidii</arg>
+</arguments>
+<msg timestamp="20190917 23:03:05.494" level="TRACE">Arguments: [ 'Dummy find tidii' | 'Dummy find tidii' ]</msg>
+<msg timestamp="20190917 23:03:05.494" level="DEBUG">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<msg timestamp="20190917 23:03:05.494" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190917 23:03:05.494" starttime="20190917 23:03:05.494"></status>
+</kw>
+<tags>
+<tag>demo4</tag>
+</tags>
+<status status="PASS" endtime="20190917 23:03:05.494" critical="yes" starttime="20190917 23:03:05.492"></status>
+</test>
+<status status="PASS" endtime="20190917 23:03:05.495" starttime="20190917 23:03:05.243"></status>
+</suite>
+<status status="PASS" endtime="20190917 23:03:05.496" starttime="20190917 23:03:05.218"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">demo4</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="1-Plugin" pass="2">1-Plugin</stat>
+<stat fail="0" id="s1-s1" name="Element Finder Plugin" pass="2">1-Plugin.Element Finder Plugin</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
