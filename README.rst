@@ -28,7 +28,8 @@ script to operating system shell and it should work out of the box.
 
 Result
 ------
-Result for each demo can be viewed from Github pages
+Result for each demo can be viewed from Github pages.
+
 ==================================  ==========================  ==========================
 Demo                                Report                      Log
 ==================================  ==========================  ==========================
