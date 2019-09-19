@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190917 23:02:47.782" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<robot rpa="false" generated="20190919 08:55:06.481" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
 <suite source="/home/godtdd/workspace/meetup-2019-09-19/1-plugin" id="s1" name="1-Plugin">
 <suite source="/home/godtdd/workspace/meetup-2019-09-19/1-plugin/plugin.robot" id="s1-s1" name="Plugin">
 <test id="s1-s1-t1" name="Open Real Browser And Do Something">
@@ -7,46 +7,46 @@
 <tags>
 <tag>plugin</tag>
 </tags>
-<msg timestamp="20190917 23:02:48.070" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:02:48.070" level="INFO">Opening browser 'chrome' to base url 'http://localhost:7000/html'.</msg>
-<msg timestamp="20190917 23:02:49.084" level="DEBUG">POST http://127.0.0.1:43111/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
-<msg timestamp="20190917 23:02:49.088" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:43111</msg>
-<msg timestamp="20190917 23:02:49.697" level="DEBUG">http://127.0.0.1:43111 "POST /session HTTP/1.1" 200 641</msg>
-<msg timestamp="20190917 23:02:49.698" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:49.698" level="DEBUG">POST http://127.0.0.1:43111/session/e7823df2fac41f5577afab9160286608/timeouts {"script": 5000}</msg>
-<msg timestamp="20190917 23:02:49.715" level="DEBUG">http://127.0.0.1:43111 "POST /session/e7823df2fac41f5577afab9160286608/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:49.716" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:49.716" level="DEBUG">POST http://127.0.0.1:43111/session/e7823df2fac41f5577afab9160286608/timeouts {"implicit": 0}</msg>
-<msg timestamp="20190917 23:02:49.719" level="DEBUG">http://127.0.0.1:43111 "POST /session/e7823df2fac41f5577afab9160286608/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:49.719" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:49.719" level="DEBUG">POST http://127.0.0.1:43111/session/e7823df2fac41f5577afab9160286608/url {"url": "http://localhost:7000/html"}</msg>
-<msg timestamp="20190917 23:02:49.820" level="DEBUG">http://127.0.0.1:43111 "POST /session/e7823df2fac41f5577afab9160286608/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:49.820" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:49.820" level="DEBUG">Opened browser with session id e7823df2fac41f5577afab9160286608.</msg>
-<msg timestamp="20190917 23:02:49.821" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:49.821" starttime="20190917 23:02:48.070"></status>
+<msg timestamp="20190919 08:55:07.318" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 08:55:07.318" level="INFO">Opening browser 'chrome' to base url 'http://localhost:7000/html'.</msg>
+<msg timestamp="20190919 08:55:08.335" level="DEBUG">POST http://127.0.0.1:51365/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
+<msg timestamp="20190919 08:55:08.339" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:51365</msg>
+<msg timestamp="20190919 08:55:10.927" level="DEBUG">http://127.0.0.1:51365 "POST /session HTTP/1.1" 200 641</msg>
+<msg timestamp="20190919 08:55:10.928" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:10.928" level="DEBUG">POST http://127.0.0.1:51365/session/baddc4e3876c700cac6cf08ac636611c/timeouts {"script": 5000}</msg>
+<msg timestamp="20190919 08:55:10.929" level="DEBUG">http://127.0.0.1:51365 "POST /session/baddc4e3876c700cac6cf08ac636611c/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:10.930" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:10.930" level="DEBUG">POST http://127.0.0.1:51365/session/baddc4e3876c700cac6cf08ac636611c/timeouts {"implicit": 0}</msg>
+<msg timestamp="20190919 08:55:10.931" level="DEBUG">http://127.0.0.1:51365 "POST /session/baddc4e3876c700cac6cf08ac636611c/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:10.931" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:10.931" level="DEBUG">POST http://127.0.0.1:51365/session/baddc4e3876c700cac6cf08ac636611c/url {"url": "http://localhost:7000/html"}</msg>
+<msg timestamp="20190919 08:55:11.058" level="DEBUG">http://127.0.0.1:51365 "POST /session/baddc4e3876c700cac6cf08ac636611c/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:11.059" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:11.059" level="DEBUG">Opened browser with session id baddc4e3876c700cac6cf08ac636611c.</msg>
+<msg timestamp="20190919 08:55:11.059" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:11.060" starttime="20190919 08:55:07.318"></status>
 </kw>
 <kw name="Do Something" library="SeleniumLibrary">
 <tags>
 <tag>plugin</tag>
 </tags>
-<msg timestamp="20190917 23:02:49.821" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:02:49.822" level="DEBUG">POST http://127.0.0.1:43111/session/e7823df2fac41f5577afab9160286608/elements {"using": "xpath", "value": "//title"}</msg>
-<msg timestamp="20190917 23:02:49.846" level="DEBUG">http://127.0.0.1:43111 "POST /session/e7823df2fac41f5577afab9160286608/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20190917 23:02:49.847" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:49.847" level="INFO">One element &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="7df48e7f-5533-46ad-840f-3b2d57e8b3e1")&gt;</msg>
-<msg timestamp="20190917 23:02:49.847" level="DEBUG">POST http://127.0.0.1:43111/session/e7823df2fac41f5577afab9160286608/elements {"using": "xpath", "value": "//*"}</msg>
-<msg timestamp="20190917 23:02:49.873" level="DEBUG">http://127.0.0.1:43111 "POST /session/e7823df2fac41f5577afab9160286608/elements HTTP/1.1" 200 643</msg>
-<msg timestamp="20190917 23:02:49.874" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:49.874" level="INFO">List of elements [&lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="9ea71dce-5020-4471-97a2-e8273c1b7339")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="363d971f-de0f-49d5-8322-1ed9887ea4d4")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="7df48e7f-5533-46ad-840f-3b2d57e8b3e1")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="aaea4d64-5d32-4776-b98a-ba34215224d1")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="19a5cc8a-0034-400b-9533-0e51c2cf3400")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="aabf842a-37a1-4076-8f5a-5038810ed438")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="05908bac-c103-4a8a-bc40-29bd9c0f29a2")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="e7823df2fac41f5577afab9160286608", element="74f792b9-bdcd-45aa-85a5-accbdb90da17")&gt;]</msg>
-<msg timestamp="20190917 23:02:49.874" level="INFO">Currently active driver here: &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="e7823df2fac41f5577afab9160286608")&gt; </msg>
-<msg timestamp="20190917 23:02:49.874" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:49.874" starttime="20190917 23:02:49.821"></status>
+<msg timestamp="20190919 08:55:11.061" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 08:55:11.061" level="DEBUG">POST http://127.0.0.1:51365/session/baddc4e3876c700cac6cf08ac636611c/elements {"using": "xpath", "value": "//title"}</msg>
+<msg timestamp="20190919 08:55:11.109" level="DEBUG">http://127.0.0.1:51365 "POST /session/baddc4e3876c700cac6cf08ac636611c/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20190919 08:55:11.109" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:11.110" level="INFO">One element &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="744b22d4-3dc6-48c5-bb84-c99eca517238")&gt;</msg>
+<msg timestamp="20190919 08:55:11.110" level="DEBUG">POST http://127.0.0.1:51365/session/baddc4e3876c700cac6cf08ac636611c/elements {"using": "xpath", "value": "//*"}</msg>
+<msg timestamp="20190919 08:55:11.141" level="DEBUG">http://127.0.0.1:51365 "POST /session/baddc4e3876c700cac6cf08ac636611c/elements HTTP/1.1" 200 643</msg>
+<msg timestamp="20190919 08:55:11.141" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:11.142" level="INFO">List of elements [&lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="4eb22a13-5863-4c9c-ab67-af74d095c7c3")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="1179ec8f-8f26-492f-8afb-f6b4e4609586")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="744b22d4-3dc6-48c5-bb84-c99eca517238")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="3f713204-41fe-4f64-b4b2-0880f2ff1eb2")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="089882f5-ae97-4860-bfaf-21afd2ee3539")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="e6ff1e1b-a3aa-4b18-92ac-131f7bd28b59")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="97185ae5-da70-4640-a856-01022271a68e")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="baddc4e3876c700cac6cf08ac636611c", element="d7285a63-eb49-48a2-b7b7-e862d65e99ab")&gt;]</msg>
+<msg timestamp="20190919 08:55:11.142" level="INFO">Currently active driver here: &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="baddc4e3876c700cac6cf08ac636611c")&gt; </msg>
+<msg timestamp="20190919 08:55:11.142" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:11.142" starttime="20190919 08:55:11.060"></status>
 </kw>
 <tags>
 <tag>demo1</tag>
 </tags>
-<status status="PASS" endtime="20190917 23:02:49.874" critical="yes" starttime="20190917 23:02:48.069"></status>
+<status status="PASS" endtime="20190919 08:55:11.143" critical="yes" starttime="20190919 08:55:07.317"></status>
 </test>
 <test id="s1-s1-t2" name="Overwriting Exsisting Keyword">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -60,11 +60,11 @@
 <assign>
 <var>${text}</var>
 </assign>
-<msg timestamp="20190917 23:02:49.876" level="TRACE">Arguments: [ 'text is returned' ]</msg>
-<msg timestamp="20190917 23:02:49.876" level="INFO">text is returned</msg>
-<msg timestamp="20190917 23:02:49.876" level="TRACE">Return: 'text is returned'</msg>
-<msg timestamp="20190917 23:02:49.877" level="INFO">${text} = text is returned</msg>
-<status status="PASS" endtime="20190917 23:02:49.877" starttime="20190917 23:02:49.876"></status>
+<msg timestamp="20190919 08:55:11.145" level="TRACE">Arguments: [ 'text is returned' ]</msg>
+<msg timestamp="20190919 08:55:11.145" level="INFO">text is returned</msg>
+<msg timestamp="20190919 08:55:11.145" level="TRACE">Return: 'text is returned'</msg>
+<msg timestamp="20190919 08:55:11.146" level="INFO">${text} = text is returned</msg>
+<status status="PASS" endtime="20190919 08:55:11.146" starttime="20190919 08:55:11.145"></status>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <doc>Fails if the given objects are unequal.</doc>
@@ -72,31 +72,31 @@
 <arg>${text}</arg>
 <arg>text is returned</arg>
 </arguments>
-<msg timestamp="20190917 23:02:49.877" level="TRACE">Arguments: [ 'text is returned' | 'text is returned' ]</msg>
-<msg timestamp="20190917 23:02:49.877" level="DEBUG">Argument types are:
+<msg timestamp="20190919 08:55:11.146" level="TRACE">Arguments: [ 'text is returned' | 'text is returned' ]</msg>
+<msg timestamp="20190919 08:55:11.147" level="DEBUG">Argument types are:
 &lt;type 'unicode'&gt;
 &lt;type 'unicode'&gt;</msg>
-<msg timestamp="20190917 23:02:49.877" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:49.877" starttime="20190917 23:02:49.877"></status>
+<msg timestamp="20190919 08:55:11.147" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:11.147" starttime="20190919 08:55:11.146"></status>
 </kw>
 <tags>
 <tag>demo1</tag>
 </tags>
-<status status="PASS" endtime="20190917 23:02:49.878" critical="yes" starttime="20190917 23:02:49.875"></status>
+<status status="PASS" endtime="20190919 08:55:11.147" critical="yes" starttime="20190919 08:55:11.144"></status>
 </test>
 <kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<msg timestamp="20190917 23:02:49.879" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:02:49.879" level="DEBUG">Closing all browsers.</msg>
-<msg timestamp="20190917 23:02:49.879" level="DEBUG">DELETE http://127.0.0.1:43111/session/e7823df2fac41f5577afab9160286608 {}</msg>
-<msg timestamp="20190917 23:02:49.931" level="DEBUG">http://127.0.0.1:43111 "DELETE /session/e7823df2fac41f5577afab9160286608 HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:49.932" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:49.937" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:49.937" starttime="20190917 23:02:49.879"></status>
+<msg timestamp="20190919 08:55:11.149" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 08:55:11.149" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20190919 08:55:11.149" level="DEBUG">DELETE http://127.0.0.1:51365/session/baddc4e3876c700cac6cf08ac636611c {}</msg>
+<msg timestamp="20190919 08:55:11.203" level="DEBUG">http://127.0.0.1:51365 "DELETE /session/baddc4e3876c700cac6cf08ac636611c HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:11.203" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:11.208" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:11.208" starttime="20190919 08:55:11.148"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:02:49.937" starttime="20190917 23:02:47.808"></status>
+<status status="PASS" endtime="20190919 08:55:11.209" starttime="20190919 08:55:06.567"></status>
 </suite>
-<status status="PASS" endtime="20190917 23:02:49.940" starttime="20190917 23:02:47.784"></status>
+<status status="PASS" endtime="20190919 08:55:11.212" starttime="20190919 08:55:06.487"></status>
 </suite>
 <statistics>
 <total>

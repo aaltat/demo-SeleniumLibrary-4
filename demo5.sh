@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-robot --include demo5 --outputdir docs/demo5 --loglevel trace 1-plugin
+robot --outputdir docs/demo5 --loglevel trace ./5-plugin-advanced

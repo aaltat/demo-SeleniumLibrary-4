@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190917 23:02:58.641" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<robot rpa="false" generated="20190919 09:00:59.079" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
 <suite source="/home/godtdd/workspace/meetup-2019-09-19/3-selenium-options" id="s1" name="3-Selenium-Options">
 <suite source="/home/godtdd/workspace/meetup-2019-09-19/3-selenium-options/selenium_options.robot" id="s1-s1" name="Selenium Options">
 <test id="s1-s1-t1" name="Chrome Browser With Selenium Options As String">
@@ -10,36 +10,46 @@
 <arg>${BROWSER}</arg>
 <arg>options=add_argument("--disable-dev-shm-usage" );headless=True</arg>
 </arguments>
-<msg timestamp="20190917 23:02:58.918" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' | options='add_argument("--disable-dev-shm-usage" );headless=True' ]</msg>
-<msg timestamp="20190917 23:02:58.918" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
-<msg timestamp="20190917 23:02:59.931" level="DEBUG">POST http://127.0.0.1:36329/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage", "--headless"], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage", "--headless"], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
-<msg timestamp="20190917 23:02:59.935" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:36329</msg>
-<msg timestamp="20190917 23:03:00.149" level="DEBUG">http://127.0.0.1:36329 "POST /session HTTP/1.1" 200 641</msg>
-<msg timestamp="20190917 23:03:00.149" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:00.150" level="DEBUG">POST http://127.0.0.1:36329/session/8ce9bc5f9860a7d3efbf91795e038e3e/timeouts {"script": 5000}</msg>
-<msg timestamp="20190917 23:03:00.151" level="DEBUG">http://127.0.0.1:36329 "POST /session/8ce9bc5f9860a7d3efbf91795e038e3e/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:00.151" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:00.152" level="DEBUG">POST http://127.0.0.1:36329/session/8ce9bc5f9860a7d3efbf91795e038e3e/timeouts {"implicit": 0}</msg>
-<msg timestamp="20190917 23:03:00.153" level="DEBUG">http://127.0.0.1:36329 "POST /session/8ce9bc5f9860a7d3efbf91795e038e3e/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:00.153" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:00.153" level="DEBUG">POST http://127.0.0.1:36329/session/8ce9bc5f9860a7d3efbf91795e038e3e/url {"url": "http://localhost:7000/html/"}</msg>
-<msg timestamp="20190917 23:03:00.235" level="DEBUG">http://127.0.0.1:36329 "POST /session/8ce9bc5f9860a7d3efbf91795e038e3e/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:00.236" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:00.236" level="DEBUG">Opened browser with session id 8ce9bc5f9860a7d3efbf91795e038e3e.</msg>
-<msg timestamp="20190917 23:03:00.236" level="TRACE">Return: 1</msg>
-<status status="PASS" endtime="20190917 23:03:00.236" starttime="20190917 23:02:58.917"></status>
+<msg timestamp="20190919 09:00:59.363" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' | options='add_argument("--disable-dev-shm-usage" );headless=True' ]</msg>
+<msg timestamp="20190919 09:00:59.363" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
+<msg timestamp="20190919 09:01:00.377" level="DEBUG">POST http://127.0.0.1:35593/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage", "--headless"], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage", "--headless"], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
+<msg timestamp="20190919 09:01:00.382" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:35593</msg>
+<msg timestamp="20190919 09:01:00.608" level="DEBUG">http://127.0.0.1:35593 "POST /session HTTP/1.1" 200 641</msg>
+<msg timestamp="20190919 09:01:00.608" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:00.608" level="DEBUG">POST http://127.0.0.1:35593/session/45d1f138f4f1968e759174a096afa102/timeouts {"script": 5000}</msg>
+<msg timestamp="20190919 09:01:00.610" level="DEBUG">http://127.0.0.1:35593 "POST /session/45d1f138f4f1968e759174a096afa102/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:00.610" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:00.611" level="DEBUG">POST http://127.0.0.1:35593/session/45d1f138f4f1968e759174a096afa102/timeouts {"implicit": 0}</msg>
+<msg timestamp="20190919 09:01:00.612" level="DEBUG">http://127.0.0.1:35593 "POST /session/45d1f138f4f1968e759174a096afa102/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:00.612" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:00.613" level="DEBUG">POST http://127.0.0.1:35593/session/45d1f138f4f1968e759174a096afa102/url {"url": "http://localhost:7000/html/"}</msg>
+<msg timestamp="20190919 09:01:00.761" level="DEBUG">http://127.0.0.1:35593 "POST /session/45d1f138f4f1968e759174a096afa102/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:00.761" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:00.761" level="DEBUG">Opened browser with session id 45d1f138f4f1968e759174a096afa102.</msg>
+<msg timestamp="20190919 09:01:00.762" level="TRACE">Return: 1</msg>
+<status status="PASS" endtime="20190919 09:01:00.762" starttime="20190919 09:00:59.362"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:03:00.237" critical="yes" starttime="20190917 23:02:58.917"></status>
+<kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<msg timestamp="20190919 09:01:00.763" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 09:01:00.763" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20190919 09:01:00.764" level="DEBUG">DELETE http://127.0.0.1:35593/session/45d1f138f4f1968e759174a096afa102 {}</msg>
+<msg timestamp="20190919 09:01:00.819" level="DEBUG">http://127.0.0.1:35593 "DELETE /session/45d1f138f4f1968e759174a096afa102 HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:00.820" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:00.835" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 09:01:00.835" starttime="20190919 09:01:00.763"></status>
+</kw>
+<status status="PASS" endtime="20190919 09:01:00.836" critical="yes" starttime="20190919 09:00:59.362"></status>
 </test>
 <test id="s1-s1-t2" name="Chrome Browser With Selenium Options Object">
 <kw name="Get Chrome Options" library="get_selenium_options">
 <assign>
 <var>${options}</var>
 </assign>
-<msg timestamp="20190917 23:03:00.238" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:03:00.239" level="TRACE">Return: &lt;selenium.webdriver.chrome.options.Options object at 0x7faa86f4d150&gt;</msg>
-<msg timestamp="20190917 23:03:00.239" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x7faa86f4d150&gt;</msg>
-<status status="PASS" endtime="20190917 23:03:00.239" starttime="20190917 23:03:00.238"></status>
+<msg timestamp="20190919 09:01:00.842" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 09:01:00.842" level="TRACE">Return: &lt;selenium.webdriver.chrome.options.Options object at 0x7f225b5bb310&gt;</msg>
+<msg timestamp="20190919 09:01:00.843" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x7f225b5bb310&gt;</msg>
+<status status="PASS" endtime="20190919 09:01:00.843" starttime="20190919 09:01:00.841"></status>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -48,26 +58,36 @@
 <arg>${BROWSER}</arg>
 <arg>options=${options}</arg>
 </arguments>
-<msg timestamp="20190917 23:03:00.239" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' | options=&lt;selenium.webdriver.chrome.options.Options object at 0x7faa86f4d150&gt; ]</msg>
-<msg timestamp="20190917 23:03:00.240" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
-<msg timestamp="20190917 23:03:01.251" level="DEBUG">POST http://127.0.0.1:50801/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage"], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage"], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
-<msg timestamp="20190917 23:03:01.256" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:50801</msg>
-<msg timestamp="20190917 23:03:01.851" level="DEBUG">http://127.0.0.1:50801 "POST /session HTTP/1.1" 200 641</msg>
-<msg timestamp="20190917 23:03:01.851" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:01.851" level="DEBUG">POST http://127.0.0.1:50801/session/cb729e93d3dc58877e0fb72c118df186/timeouts {"script": 5000}</msg>
-<msg timestamp="20190917 23:03:01.853" level="DEBUG">http://127.0.0.1:50801 "POST /session/cb729e93d3dc58877e0fb72c118df186/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:01.853" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:01.854" level="DEBUG">POST http://127.0.0.1:50801/session/cb729e93d3dc58877e0fb72c118df186/timeouts {"implicit": 0}</msg>
-<msg timestamp="20190917 23:03:01.862" level="DEBUG">http://127.0.0.1:50801 "POST /session/cb729e93d3dc58877e0fb72c118df186/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:01.863" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:01.863" level="DEBUG">POST http://127.0.0.1:50801/session/cb729e93d3dc58877e0fb72c118df186/url {"url": "http://localhost:7000/html/"}</msg>
-<msg timestamp="20190917 23:03:02.010" level="DEBUG">http://127.0.0.1:50801 "POST /session/cb729e93d3dc58877e0fb72c118df186/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:02.011" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:02.011" level="DEBUG">Opened browser with session id cb729e93d3dc58877e0fb72c118df186.</msg>
-<msg timestamp="20190917 23:03:02.011" level="TRACE">Return: 2</msg>
-<status status="PASS" endtime="20190917 23:03:02.011" starttime="20190917 23:03:00.239"></status>
+<msg timestamp="20190919 09:01:00.845" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' | options=&lt;selenium.webdriver.chrome.options.Options object at 0x7f225b5bb310&gt; ]</msg>
+<msg timestamp="20190919 09:01:00.846" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
+<msg timestamp="20190919 09:01:01.877" level="DEBUG">POST http://127.0.0.1:40351/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage"], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": ["--disable-dev-shm-usage"], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
+<msg timestamp="20190919 09:01:01.882" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:40351</msg>
+<msg timestamp="20190919 09:01:02.562" level="DEBUG">http://127.0.0.1:40351 "POST /session HTTP/1.1" 200 641</msg>
+<msg timestamp="20190919 09:01:02.562" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:02.563" level="DEBUG">POST http://127.0.0.1:40351/session/0a6aa77525253f9c80859e3139f91bc5/timeouts {"script": 5000}</msg>
+<msg timestamp="20190919 09:01:02.564" level="DEBUG">http://127.0.0.1:40351 "POST /session/0a6aa77525253f9c80859e3139f91bc5/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:02.565" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:02.565" level="DEBUG">POST http://127.0.0.1:40351/session/0a6aa77525253f9c80859e3139f91bc5/timeouts {"implicit": 0}</msg>
+<msg timestamp="20190919 09:01:02.566" level="DEBUG">http://127.0.0.1:40351 "POST /session/0a6aa77525253f9c80859e3139f91bc5/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:02.577" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:02.577" level="DEBUG">POST http://127.0.0.1:40351/session/0a6aa77525253f9c80859e3139f91bc5/url {"url": "http://localhost:7000/html/"}</msg>
+<msg timestamp="20190919 09:01:02.731" level="DEBUG">http://127.0.0.1:40351 "POST /session/0a6aa77525253f9c80859e3139f91bc5/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:02.732" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:02.732" level="DEBUG">Opened browser with session id 0a6aa77525253f9c80859e3139f91bc5.</msg>
+<msg timestamp="20190919 09:01:02.732" level="TRACE">Return: 1</msg>
+<status status="PASS" endtime="20190919 09:01:02.732" starttime="20190919 09:01:00.844"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:03:02.011" critical="yes" starttime="20190917 23:03:00.237"></status>
+<kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<msg timestamp="20190919 09:01:02.733" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 09:01:02.733" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20190919 09:01:02.733" level="DEBUG">DELETE http://127.0.0.1:40351/session/0a6aa77525253f9c80859e3139f91bc5 {}</msg>
+<msg timestamp="20190919 09:01:02.786" level="DEBUG">http://127.0.0.1:40351 "DELETE /session/0a6aa77525253f9c80859e3139f91bc5 HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 09:01:02.787" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 09:01:02.790" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 09:01:02.790" starttime="20190919 09:01:02.733"></status>
+</kw>
+<status status="PASS" endtime="20190919 09:01:02.790" critical="yes" starttime="20190919 09:01:00.838"></status>
 </test>
 <test id="s1-s1-t3" name="Chrome Browser With Selenium Options Invalid Method">
 <kw name="Run Keyword And Expect Error" library="BuiltIn">
@@ -79,7 +99,7 @@
 <arg>${BROWSER}</arg>
 <arg>options=not_here_method("arg1")</arg>
 </arguments>
-<msg timestamp="20190917 23:03:02.013" level="TRACE">Arguments: [ "AttributeError: 'Options' object has no attribute 'not_here_method'" | 'Open Browser' | '${FRONT PAGE}' | '${BROWSER}' | 'options=not_here_method("arg1")' ]</msg>
+<msg timestamp="20190919 09:01:02.792" level="TRACE">Arguments: [ "AttributeError: 'Options' object has no attribute 'not_here_method'" | 'Open Browser' | '${FRONT PAGE}' | '${BROWSER}' | 'options=not_here_method("arg1")' ]</msg>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
 <arguments>
@@ -87,20 +107,17 @@
 <arg>${BROWSER}</arg>
 <arg>options=not_here_method("arg1")</arg>
 </arguments>
-<msg timestamp="20190917 23:03:02.016" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' | options='not_here_method("arg1")' ]</msg>
-<msg timestamp="20190917 23:03:02.017" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
+<msg timestamp="20190919 09:01:02.793" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' | options='not_here_method("arg1")' ]</msg>
+<msg timestamp="20190919 09:01:02.794" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20190917 23:03:02.018" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:03:02.019" level="DEBUG">GET http://127.0.0.1:50801/session/cb729e93d3dc58877e0fb72c118df186/screenshot {}</msg>
-<msg timestamp="20190917 23:03:02.128" level="DEBUG">http://127.0.0.1:50801 "GET /session/cb729e93d3dc58877e0fb72c118df186/screenshot HTTP/1.1" 200 18680</msg>
-<msg timestamp="20190917 23:03:02.129" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:02.129" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20190917 23:03:02.129" level="TRACE">Return: '/home/godtdd/workspace/meetup-2019-09-19/docs/demo3/selenium-screenshot-1.png'</msg>
-<status status="PASS" endtime="20190917 23:03:02.129" starttime="20190917 23:03:02.017"></status>
+<msg timestamp="20190919 09:01:02.796" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 09:01:02.796" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20190919 09:01:02.796" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 09:01:02.796" starttime="20190919 09:01:02.796"></status>
 </kw>
-<msg timestamp="20190917 23:03:02.130" level="FAIL">AttributeError: 'Options' object has no attribute 'not_here_method'</msg>
-<msg timestamp="20190917 23:03:02.130" level="DEBUG">Traceback (most recent call last):
+<msg timestamp="20190919 09:01:02.797" level="FAIL">AttributeError: 'Options' object has no attribute 'not_here_method'</msg>
+<msg timestamp="20190919 09:01:02.797" level="DEBUG">Traceback (most recent call last):
   File "/home/godtdd/.local/lib/python2.7/site-packages/SeleniumLibrary/__init__.py", line 467, in run_keyword
     return DynamicCore.run_keyword(self, name, args, kwargs)
   File "/home/godtdd/.local/lib/python2.7/site-packages/SeleniumLibrary/base/robotlibcore.py", line 102, in run_keyword
@@ -115,29 +132,23 @@
     options = self.selenium_options.create(self.browser_names.get(browser), options)
   File "/home/godtdd/.local/lib/python2.7/site-packages/SeleniumLibrary/keywords/webdrivertools/webdrivertools.py", line 397, in create
     attr = getattr(selenium_options, key)</msg>
-<status status="FAIL" endtime="20190917 23:03:02.130" starttime="20190917 23:03:02.016"></status>
+<status status="FAIL" endtime="20190919 09:01:02.797" starttime="20190919 09:01:02.793"></status>
 </kw>
-<msg timestamp="20190917 23:03:02.131" level="TRACE">Return: "AttributeError: 'Options' object has no attribute 'not_here_method'"</msg>
-<status status="PASS" endtime="20190917 23:03:02.131" starttime="20190917 23:03:02.013"></status>
+<msg timestamp="20190919 09:01:02.798" level="TRACE">Return: "AttributeError: 'Options' object has no attribute 'not_here_method'"</msg>
+<status status="PASS" endtime="20190919 09:01:02.798" starttime="20190919 09:01:02.792"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:03:02.132" critical="yes" starttime="20190917 23:03:02.012"></status>
-</test>
 <kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<msg timestamp="20190917 23:03:02.133" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:03:02.133" level="DEBUG">Closing all browsers.</msg>
-<msg timestamp="20190917 23:03:02.133" level="DEBUG">DELETE http://127.0.0.1:36329/session/8ce9bc5f9860a7d3efbf91795e038e3e {}</msg>
-<msg timestamp="20190917 23:03:02.186" level="DEBUG">http://127.0.0.1:36329 "DELETE /session/8ce9bc5f9860a7d3efbf91795e038e3e HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:02.186" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:02.192" level="DEBUG">DELETE http://127.0.0.1:50801/session/cb729e93d3dc58877e0fb72c118df186 {}</msg>
-<msg timestamp="20190917 23:03:02.248" level="DEBUG">http://127.0.0.1:50801 "DELETE /session/cb729e93d3dc58877e0fb72c118df186 HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:02.248" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:02.250" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:03:02.251" starttime="20190917 23:03:02.133"></status>
+<msg timestamp="20190919 09:01:02.799" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 09:01:02.799" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20190919 09:01:02.799" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 09:01:02.800" starttime="20190919 09:01:02.799"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:03:02.251" starttime="20190917 23:02:58.669"></status>
+<status status="PASS" endtime="20190919 09:01:02.800" critical="yes" starttime="20190919 09:01:02.791"></status>
+</test>
+<status status="PASS" endtime="20190919 09:01:02.801" starttime="20190919 09:00:59.103"></status>
 </suite>
-<status status="PASS" endtime="20190917 23:03:02.255" starttime="20190917 23:02:58.642"></status>
+<status status="PASS" endtime="20190919 09:01:02.806" starttime="20190919 09:00:59.080"></status>
 </suite>
 <statistics>
 <total>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190917 23:03:21.200" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
-<suite source="/home/godtdd/workspace/meetup-2019-09-19/1-plugin" id="s1" name="1-Plugin">
-<suite source="/home/godtdd/workspace/meetup-2019-09-19/1-plugin/open_browser.robot" id="s1-s1" name="Open Browser">
+<robot rpa="false" generated="20190919 08:55:39.180" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/godtdd/workspace/meetup-2019-09-19/5-plugin-advanced" id="s1" name="5-Plugin-Advanced">
+<suite source="/home/godtdd/workspace/meetup-2019-09-19/5-plugin-advanced/open_browser.robot" id="s1-s1" name="Open Browser">
 <test id="s1-s1-t1" name="Open Browser Coplex Example">
 <kw name="Open Browser" library="SeleniumLibrary">
 <tags>
@@ -12,44 +12,44 @@
 <arg>seleniumwire</arg>
 <arg>extra_dictionary=${EXTRA DICTIONARY}</arg>
 </arguments>
-<msg timestamp="20190917 23:03:21.477" level="TRACE">Arguments: [ 'http://localhost:7000/html/forms/prefilled_email_form.html' | 'seleniumwire' | extra_dictionary={'extra': 'dictionary', 'key': 'value'} ]</msg>
-<msg timestamp="20190917 23:03:21.477" level="INFO">Opening browser 'seleniumwire' to base url 'http://localhost:7000/html/forms/prefilled_email_form.html'.</msg>
-<msg timestamp="20190917 23:03:21.477" level="INFO">{u'extra': u'dictionary', u'key': u'value'}</msg>
-<msg timestamp="20190917 23:03:22.489" level="DEBUG">POST http://127.0.0.1:40479/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
-<msg timestamp="20190917 23:03:22.493" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:40479</msg>
-<msg timestamp="20190917 23:03:23.095" level="DEBUG">http://127.0.0.1:40479 "POST /session HTTP/1.1" 200 641</msg>
-<msg timestamp="20190917 23:03:23.096" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:23.096" level="DEBUG">POST http://127.0.0.1:40479/session/0ab4e4cd3438bdac50f3f8638b182266/timeouts {"script": 5000}</msg>
-<msg timestamp="20190917 23:03:23.110" level="DEBUG">http://127.0.0.1:40479 "POST /session/0ab4e4cd3438bdac50f3f8638b182266/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:23.116" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:23.116" level="DEBUG">POST http://127.0.0.1:40479/session/0ab4e4cd3438bdac50f3f8638b182266/timeouts {"implicit": 0}</msg>
-<msg timestamp="20190917 23:03:23.124" level="DEBUG">http://127.0.0.1:40479 "POST /session/0ab4e4cd3438bdac50f3f8638b182266/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:23.124" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:23.124" level="DEBUG">POST http://127.0.0.1:40479/session/0ab4e4cd3438bdac50f3f8638b182266/url {"url": "http://localhost:7000/html/forms/prefilled_email_form.html"}</msg>
-<msg timestamp="20190917 23:03:23.227" level="DEBUG">http://127.0.0.1:40479 "POST /session/0ab4e4cd3438bdac50f3f8638b182266/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:23.227" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:23.227" level="DEBUG">Opened browser with session id 0ab4e4cd3438bdac50f3f8638b182266.</msg>
-<msg timestamp="20190917 23:03:23.227" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:03:23.228" starttime="20190917 23:03:21.477"></status>
+<msg timestamp="20190919 08:55:39.557" level="TRACE">Arguments: [ 'http://localhost:7000/html/forms/prefilled_email_form.html' | 'seleniumwire' | extra_dictionary={'extra': 'dictionary', 'key': 'value'} ]</msg>
+<msg timestamp="20190919 08:55:39.558" level="INFO">Opening browser 'seleniumwire' to base url 'http://localhost:7000/html/forms/prefilled_email_form.html'.</msg>
+<msg timestamp="20190919 08:55:39.558" level="INFO">{u'extra': u'dictionary', u'key': u'value'}</msg>
+<msg timestamp="20190919 08:55:40.572" level="DEBUG">POST http://127.0.0.1:46611/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
+<msg timestamp="20190919 08:55:40.576" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:46611</msg>
+<msg timestamp="20190919 08:55:41.349" level="DEBUG">http://127.0.0.1:46611 "POST /session HTTP/1.1" 200 641</msg>
+<msg timestamp="20190919 08:55:41.350" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:41.350" level="DEBUG">POST http://127.0.0.1:46611/session/710029b7eef3c5801a99fbf955494078/timeouts {"script": 5000}</msg>
+<msg timestamp="20190919 08:55:41.352" level="DEBUG">http://127.0.0.1:46611 "POST /session/710029b7eef3c5801a99fbf955494078/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:41.352" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:41.353" level="DEBUG">POST http://127.0.0.1:46611/session/710029b7eef3c5801a99fbf955494078/timeouts {"implicit": 0}</msg>
+<msg timestamp="20190919 08:55:41.356" level="DEBUG">http://127.0.0.1:46611 "POST /session/710029b7eef3c5801a99fbf955494078/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:41.356" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:41.356" level="DEBUG">POST http://127.0.0.1:46611/session/710029b7eef3c5801a99fbf955494078/url {"url": "http://localhost:7000/html/forms/prefilled_email_form.html"}</msg>
+<msg timestamp="20190919 08:55:41.442" level="DEBUG">http://127.0.0.1:46611 "POST /session/710029b7eef3c5801a99fbf955494078/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:41.445" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:41.445" level="DEBUG">Opened browser with session id 710029b7eef3c5801a99fbf955494078.</msg>
+<msg timestamp="20190919 08:55:41.445" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:41.445" starttime="20190919 08:55:39.557"></status>
 </kw>
 <kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<msg timestamp="20190917 23:03:23.228" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:03:23.229" level="DEBUG">Closing all browsers.</msg>
-<msg timestamp="20190917 23:03:23.229" level="DEBUG">DELETE http://127.0.0.1:40479/session/0ab4e4cd3438bdac50f3f8638b182266 {}</msg>
-<msg timestamp="20190917 23:03:23.283" level="DEBUG">http://127.0.0.1:40479 "DELETE /session/0ab4e4cd3438bdac50f3f8638b182266 HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:03:23.284" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:03:23.290" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:03:23.290" starttime="20190917 23:03:23.228"></status>
+<msg timestamp="20190919 08:55:41.446" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 08:55:41.446" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20190919 08:55:41.446" level="DEBUG">DELETE http://127.0.0.1:46611/session/710029b7eef3c5801a99fbf955494078 {}</msg>
+<msg timestamp="20190919 08:55:41.501" level="DEBUG">http://127.0.0.1:46611 "DELETE /session/710029b7eef3c5801a99fbf955494078 HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:41.501" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:41.506" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:41.506" starttime="20190919 08:55:41.446"></status>
 </kw>
 <tags>
 <tag>demo5</tag>
 </tags>
-<status status="PASS" endtime="20190917 23:03:23.291" critical="yes" starttime="20190917 23:03:21.476"></status>
+<status status="PASS" endtime="20190919 08:55:41.506" critical="yes" starttime="20190919 08:55:39.556"></status>
 </test>
-<status status="PASS" endtime="20190917 23:03:23.292" starttime="20190917 23:03:21.225"></status>
+<status status="PASS" endtime="20190919 08:55:41.507" starttime="20190919 08:55:39.210"></status>
 </suite>
-<status status="PASS" endtime="20190917 23:03:23.294" starttime="20190917 23:03:21.201"></status>
+<status status="PASS" endtime="20190919 08:55:41.510" starttime="20190919 08:55:39.182"></status>
 </suite>
 <statistics>
 <total>
@@ -60,8 +60,8 @@
 <stat fail="0" pass="1">demo5</stat>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="1-Plugin" pass="1">1-Plugin</stat>
-<stat fail="0" id="s1-s1" name="Open Browser" pass="1">1-Plugin.Open Browser</stat>
+<stat fail="0" id="s1" name="5-Plugin-Advanced" pass="1">5-Plugin-Advanced</stat>
+<stat fail="0" id="s1-s1" name="Open Browser" pass="1">5-Plugin-Advanced.Open Browser</stat>
 </suite>
 </statistics>
 <errors>

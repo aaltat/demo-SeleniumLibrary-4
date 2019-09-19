@@ -1,7 +1,7 @@
 *** Settings ***
 Library           SeleniumLibrary
 Library           get_selenium_options.py
-Suite Teardown    Close All Browsers
+Test Teardown     Close All Browsers
 
 *** Variables ***
 ${SERVER}=                  localhost:7000

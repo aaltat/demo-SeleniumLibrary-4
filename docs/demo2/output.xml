@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190917 23:02:52.773" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<robot rpa="false" generated="20190919 08:55:16.420" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
 <suite source="/home/godtdd/workspace/meetup-2019-09-19/2-event_firing_webdriver" id="s1" name="2-Event Firing Webdriver">
 <suite source="/home/godtdd/workspace/meetup-2019-09-19/2-event_firing_webdriver/event_firing_webdriver.robot" id="s1-s1" name="Event Firing Webdriver">
 <test id="s1-s1-t1" name="Open Browser To Start Page">
@@ -9,31 +9,31 @@
 <arg>${FRONT PAGE}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190917 23:02:53.045" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' ]</msg>
-<msg timestamp="20190917 23:02:53.045" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
-<msg timestamp="20190917 23:02:54.059" level="DEBUG">POST http://127.0.0.1:39233/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
-<msg timestamp="20190917 23:02:54.063" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:39233</msg>
-<msg timestamp="20190917 23:02:54.622" level="DEBUG">http://127.0.0.1:39233 "POST /session HTTP/1.1" 200 641</msg>
-<msg timestamp="20190917 23:02:54.623" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:54.623" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/timeouts {"script": 5000}</msg>
-<msg timestamp="20190917 23:02:54.645" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:54.645" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:54.645" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/timeouts {"implicit": 0}</msg>
-<msg timestamp="20190917 23:02:54.647" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/timeouts HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:54.648" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:54.648" level="DEBUG">Wrapping driver to event_firing_webdriver.</msg>
-<msg timestamp="20190917 23:02:54.648" level="INFO">Before navigate to http://localhost:7000/html/</msg>
-<msg timestamp="20190917 23:02:54.648" level="INFO">driver from Selenium &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="2f86fdfbcb70dde617c54b643661eac9")&gt;</msg>
-<msg timestamp="20190917 23:02:54.652" level="INFO">Got driver also from SeleniumLibrary: &lt;selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7f16c2fd7b90&gt;</msg>
-<msg timestamp="20190917 23:02:54.656" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/url {"url": "http://localhost:7000/html/"}</msg>
-<msg timestamp="20190917 23:02:54.802" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:54.802" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:54.803" level="INFO">After navigate to http://localhost:7000/html/</msg>
-<msg timestamp="20190917 23:02:54.803" level="DEBUG">Opened browser with session id 2f86fdfbcb70dde617c54b643661eac9.</msg>
-<msg timestamp="20190917 23:02:54.803" level="TRACE">Return: 1</msg>
-<status status="PASS" endtime="20190917 23:02:54.803" starttime="20190917 23:02:53.045"></status>
+<msg timestamp="20190919 08:55:16.796" level="TRACE">Arguments: [ 'http://localhost:7000/html/' | 'Chrome' ]</msg>
+<msg timestamp="20190919 08:55:16.796" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7000/html/'.</msg>
+<msg timestamp="20190919 08:55:17.813" level="DEBUG">POST http://127.0.0.1:51593/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
+<msg timestamp="20190919 08:55:17.817" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:51593</msg>
+<msg timestamp="20190919 08:55:18.582" level="DEBUG">http://127.0.0.1:51593 "POST /session HTTP/1.1" 200 641</msg>
+<msg timestamp="20190919 08:55:18.583" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:18.583" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/timeouts {"script": 5000}</msg>
+<msg timestamp="20190919 08:55:18.585" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:18.586" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:18.586" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/timeouts {"implicit": 0}</msg>
+<msg timestamp="20190919 08:55:18.597" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/timeouts HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:18.598" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:18.598" level="DEBUG">Wrapping driver to event_firing_webdriver.</msg>
+<msg timestamp="20190919 08:55:18.598" level="INFO">Before navigate to http://localhost:7000/html/</msg>
+<msg timestamp="20190919 08:55:18.598" level="INFO">driver from Selenium &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="0e87ad26dbe3d303d8b7937309367b4a")&gt;</msg>
+<msg timestamp="20190919 08:55:18.598" level="INFO">Got driver also from SeleniumLibrary: &lt;selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7feb0814ab90&gt;</msg>
+<msg timestamp="20190919 08:55:18.598" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/url {"url": "http://localhost:7000/html/"}</msg>
+<msg timestamp="20190919 08:55:18.690" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:18.690" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:18.690" level="INFO">After navigate to http://localhost:7000/html/</msg>
+<msg timestamp="20190919 08:55:18.690" level="DEBUG">Opened browser with session id 0e87ad26dbe3d303d8b7937309367b4a.</msg>
+<msg timestamp="20190919 08:55:18.690" level="TRACE">Return: 1</msg>
+<status status="PASS" endtime="20190919 08:55:18.690" starttime="20190919 08:55:16.795"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:02:54.803" critical="yes" starttime="20190917 23:02:53.044"></status>
+<status status="PASS" endtime="20190919 08:55:18.693" critical="yes" starttime="20190919 08:55:16.795"></status>
 </test>
 <test id="s1-s1-t2" name="Event Firing Webdriver Go To (WebDriver)">
 <kw name="Go To" library="SeleniumLibrary">
@@ -41,19 +41,19 @@
 <arguments>
 <arg>${ROOT}/named_submit_buttons.html</arg>
 </arguments>
-<msg timestamp="20190917 23:02:54.806" level="TRACE">Arguments: [ 'http://localhost:7000/html/named_submit_buttons.html' ]</msg>
-<msg timestamp="20190917 23:02:54.806" level="INFO">Opening url 'http://localhost:7000/html/named_submit_buttons.html'</msg>
-<msg timestamp="20190917 23:02:54.806" level="INFO">Before navigate to http://localhost:7000/html/named_submit_buttons.html</msg>
-<msg timestamp="20190917 23:02:54.806" level="INFO">driver from Selenium &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="2f86fdfbcb70dde617c54b643661eac9")&gt;</msg>
-<msg timestamp="20190917 23:02:54.806" level="INFO">Got driver also from SeleniumLibrary: &lt;selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7f16c2fd7b90&gt;</msg>
-<msg timestamp="20190917 23:02:54.806" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/url {"url": "http://localhost:7000/html/named_submit_buttons.html"}</msg>
-<msg timestamp="20190917 23:02:54.883" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/url HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:54.884" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:54.884" level="INFO">After navigate to http://localhost:7000/html/named_submit_buttons.html</msg>
-<msg timestamp="20190917 23:02:54.884" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:54.885" starttime="20190917 23:02:54.805"></status>
+<msg timestamp="20190919 08:55:18.700" level="TRACE">Arguments: [ 'http://localhost:7000/html/named_submit_buttons.html' ]</msg>
+<msg timestamp="20190919 08:55:18.701" level="INFO">Opening url 'http://localhost:7000/html/named_submit_buttons.html'</msg>
+<msg timestamp="20190919 08:55:18.701" level="INFO">Before navigate to http://localhost:7000/html/named_submit_buttons.html</msg>
+<msg timestamp="20190919 08:55:18.701" level="INFO">driver from Selenium &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="0e87ad26dbe3d303d8b7937309367b4a")&gt;</msg>
+<msg timestamp="20190919 08:55:18.701" level="INFO">Got driver also from SeleniumLibrary: &lt;selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7feb0814ab90&gt;</msg>
+<msg timestamp="20190919 08:55:18.701" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/url {"url": "http://localhost:7000/html/named_submit_buttons.html"}</msg>
+<msg timestamp="20190919 08:55:18.800" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/url HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:18.800" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:18.800" level="INFO">After navigate to http://localhost:7000/html/named_submit_buttons.html</msg>
+<msg timestamp="20190919 08:55:18.801" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:18.801" starttime="20190919 08:55:18.700"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:02:54.885" critical="yes" starttime="20190917 23:02:54.804"></status>
+<status status="PASS" endtime="20190919 08:55:18.801" critical="yes" starttime="20190919 08:55:18.699"></status>
 </test>
 <test id="s1-s1-t3" name="Event Firing Webdriver Input Text (WebElement)">
 <kw name="Input Text" library="SeleniumLibrary">
@@ -62,25 +62,25 @@
 <arg>//input[@name="textfield"]</arg>
 <arg>FooBar</arg>
 </arguments>
-<msg timestamp="20190917 23:02:54.886" level="TRACE">Arguments: [ '//input[@name="textfield"]' | 'FooBar' ]</msg>
-<msg timestamp="20190917 23:02:54.886" level="INFO">Typing text 'FooBar' into text field '//input[@name="textfield"]'.</msg>
-<msg timestamp="20190917 23:02:54.887" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/elements {"using": "xpath", "value": "//input[@name=\"textfield\"]"}</msg>
-<msg timestamp="20190917 23:02:54.921" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20190917 23:02:54.921" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:54.921" level="INFO">Before clear and send_keys</msg>
-<msg timestamp="20190917 23:02:54.922" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/element/6150a068-dee4-4d3c-92c1-ac5d78a20af9/clear {"id": "6150a068-dee4-4d3c-92c1-ac5d78a20af9"}</msg>
-<msg timestamp="20190917 23:02:54.958" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/element/6150a068-dee4-4d3c-92c1-ac5d78a20af9/clear HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:54.958" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:54.958" level="INFO">After clear and send_keys</msg>
-<msg timestamp="20190917 23:02:54.958" level="INFO">Before clear and send_keys</msg>
-<msg timestamp="20190917 23:02:54.958" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/element/6150a068-dee4-4d3c-92c1-ac5d78a20af9/value {"text": "FooBar", "id": "6150a068-dee4-4d3c-92c1-ac5d78a20af9", "value": ["F", "o", "o", "B", "a", "r"]}</msg>
-<msg timestamp="20190917 23:02:55.024" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/element/6150a068-dee4-4d3c-92c1-ac5d78a20af9/value HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:55.025" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:55.025" level="INFO">After clear and send_keys</msg>
-<msg timestamp="20190917 23:02:55.025" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:55.025" starttime="20190917 23:02:54.886"></status>
+<msg timestamp="20190919 08:55:18.803" level="TRACE">Arguments: [ '//input[@name="textfield"]' | 'FooBar' ]</msg>
+<msg timestamp="20190919 08:55:18.803" level="INFO">Typing text 'FooBar' into text field '//input[@name="textfield"]'.</msg>
+<msg timestamp="20190919 08:55:18.804" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/elements {"using": "xpath", "value": "//input[@name=\"textfield\"]"}</msg>
+<msg timestamp="20190919 08:55:18.828" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20190919 08:55:18.828" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:18.829" level="INFO">Before clear and send_keys</msg>
+<msg timestamp="20190919 08:55:18.829" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/element/4beff912-9198-4dad-9d0d-46f844ddd3eb/clear {"id": "4beff912-9198-4dad-9d0d-46f844ddd3eb"}</msg>
+<msg timestamp="20190919 08:55:18.865" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/element/4beff912-9198-4dad-9d0d-46f844ddd3eb/clear HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:18.866" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:18.866" level="INFO">After clear and send_keys</msg>
+<msg timestamp="20190919 08:55:18.866" level="INFO">Before clear and send_keys</msg>
+<msg timestamp="20190919 08:55:18.866" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/element/4beff912-9198-4dad-9d0d-46f844ddd3eb/value {"text": "FooBar", "id": "4beff912-9198-4dad-9d0d-46f844ddd3eb", "value": ["F", "o", "o", "B", "a", "r"]}</msg>
+<msg timestamp="20190919 08:55:19.027" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/element/4beff912-9198-4dad-9d0d-46f844ddd3eb/value HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:19.029" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:19.029" level="INFO">After clear and send_keys</msg>
+<msg timestamp="20190919 08:55:19.029" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:19.030" starttime="20190919 08:55:18.803"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:02:55.025" critical="yes" starttime="20190917 23:02:54.885"></status>
+<status status="PASS" endtime="20190919 08:55:19.030" critical="yes" starttime="20190919 08:55:18.802"></status>
 </test>
 <test id="s1-s1-t4" name="Event Firing Webdriver Click Element (WebElement)">
 <kw name="Click Element" library="SeleniumLibrary">
@@ -88,34 +88,34 @@
 <arguments>
 <arg>//input[@name="ok_button"]</arg>
 </arguments>
-<msg timestamp="20190917 23:02:55.027" level="TRACE">Arguments: [ '//input[@name="ok_button"]' ]</msg>
-<msg timestamp="20190917 23:02:55.027" level="INFO">Clicking element '//input[@name="ok_button"]'.</msg>
-<msg timestamp="20190917 23:02:55.027" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/elements {"using": "xpath", "value": "//input[@name=\"ok_button\"]"}</msg>
-<msg timestamp="20190917 23:02:55.042" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/elements HTTP/1.1" 200 90</msg>
-<msg timestamp="20190917 23:02:55.042" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:55.042" level="INFO">Before click</msg>
-<msg timestamp="20190917 23:02:55.042" level="DEBUG">POST http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9/element/69643c30-b1fc-43cb-8adb-3d9aaf6c442b/click {"id": "69643c30-b1fc-43cb-8adb-3d9aaf6c442b"}</msg>
-<msg timestamp="20190917 23:02:55.164" level="DEBUG">http://127.0.0.1:39233 "POST /session/2f86fdfbcb70dde617c54b643661eac9/element/69643c30-b1fc-43cb-8adb-3d9aaf6c442b/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:55.164" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:55.165" level="INFO">After click</msg>
-<msg timestamp="20190917 23:02:55.165" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:55.165" starttime="20190917 23:02:55.027"></status>
+<msg timestamp="20190919 08:55:19.036" level="TRACE">Arguments: [ '//input[@name="ok_button"]' ]</msg>
+<msg timestamp="20190919 08:55:19.037" level="INFO">Clicking element '//input[@name="ok_button"]'.</msg>
+<msg timestamp="20190919 08:55:19.038" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/elements {"using": "xpath", "value": "//input[@name=\"ok_button\"]"}</msg>
+<msg timestamp="20190919 08:55:19.101" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/elements HTTP/1.1" 200 90</msg>
+<msg timestamp="20190919 08:55:19.102" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:19.102" level="INFO">Before click</msg>
+<msg timestamp="20190919 08:55:19.103" level="DEBUG">POST http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a/element/b68b6b4b-cb70-407d-8336-511753e6c467/click {"id": "b68b6b4b-cb70-407d-8336-511753e6c467"}</msg>
+<msg timestamp="20190919 08:55:19.424" level="DEBUG">http://127.0.0.1:51593 "POST /session/0e87ad26dbe3d303d8b7937309367b4a/element/b68b6b4b-cb70-407d-8336-511753e6c467/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:19.424" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:19.425" level="INFO">After click</msg>
+<msg timestamp="20190919 08:55:19.425" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:19.425" starttime="20190919 08:55:19.036"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:02:55.165" critical="yes" starttime="20190917 23:02:55.026"></status>
+<status status="PASS" endtime="20190919 08:55:19.425" critical="yes" starttime="20190919 08:55:19.032"></status>
 </test>
 <kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<msg timestamp="20190917 23:02:55.167" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20190917 23:02:55.168" level="DEBUG">Closing all browsers.</msg>
-<msg timestamp="20190917 23:02:55.168" level="DEBUG">DELETE http://127.0.0.1:39233/session/2f86fdfbcb70dde617c54b643661eac9 {}</msg>
-<msg timestamp="20190917 23:02:55.223" level="DEBUG">http://127.0.0.1:39233 "DELETE /session/2f86fdfbcb70dde617c54b643661eac9 HTTP/1.1" 200 14</msg>
-<msg timestamp="20190917 23:02:55.223" level="DEBUG">Finished Request</msg>
-<msg timestamp="20190917 23:02:55.228" level="TRACE">Return: None</msg>
-<status status="PASS" endtime="20190917 23:02:55.228" starttime="20190917 23:02:55.167"></status>
+<msg timestamp="20190919 08:55:19.427" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20190919 08:55:19.427" level="DEBUG">Closing all browsers.</msg>
+<msg timestamp="20190919 08:55:19.428" level="DEBUG">DELETE http://127.0.0.1:51593/session/0e87ad26dbe3d303d8b7937309367b4a {}</msg>
+<msg timestamp="20190919 08:55:19.491" level="DEBUG">http://127.0.0.1:51593 "DELETE /session/0e87ad26dbe3d303d8b7937309367b4a HTTP/1.1" 200 14</msg>
+<msg timestamp="20190919 08:55:19.492" level="DEBUG">Finished Request</msg>
+<msg timestamp="20190919 08:55:19.498" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20190919 08:55:19.498" starttime="20190919 08:55:19.427"></status>
 </kw>
-<status status="PASS" endtime="20190917 23:02:55.228" starttime="20190917 23:02:52.799"></status>
+<status status="PASS" endtime="20190919 08:55:19.499" starttime="20190919 08:55:16.463"></status>
 </suite>
-<status status="PASS" endtime="20190917 23:02:55.232" starttime="20190917 23:02:52.774"></status>
+<status status="PASS" endtime="20190919 08:55:19.506" starttime="20190919 08:55:16.422"></status>
 </suite>
 <statistics>
 <total>
